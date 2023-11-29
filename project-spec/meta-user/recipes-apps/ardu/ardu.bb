@@ -37,5 +37,5 @@ do_compile() {
 
 do_install() {
 	     install -d ${D}${bindir}
-	     install -m 0755 ardu ${D}${bindir}
+	     install -m 0755 ${WORKDIR}/git/build/zynq/bin/ardusub ${D}${bindir}
 }
